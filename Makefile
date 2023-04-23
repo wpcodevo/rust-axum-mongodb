@@ -17,7 +17,6 @@ install:
 	cargo add thiserror
 	cargo add chrono -F serde
 	cargo add tokio -F full
-	cargo add uuid -F 'serde v4'
 	cargo add dotenv
 	# HotReload
 	cargo install cargo-watch 
